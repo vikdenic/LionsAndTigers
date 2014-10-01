@@ -54,7 +54,6 @@
 {
     CustomCollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"Cell" forIndexPath:indexPath];
 
-    cell.backgroundColor = [UIColor redColor];
     cell.imageView.image = [self.photosArray objectAtIndex:indexPath.row];
     return cell;
 }
