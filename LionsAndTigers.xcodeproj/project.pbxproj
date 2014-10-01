@@ -15,6 +15,7 @@
 		93B43D5F19DAF6660024671F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93B43D5D19DAF6660024671F /* LaunchScreen.xib */; };
 		93B43D6B19DAF6660024671F /* LionsAndTigersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B43D6A19DAF6660024671F /* LionsAndTigersTests.m */; };
 		93B43DA819DB169C0024671F /* TopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B43DA719DB169C0024671F /* TopViewController.m */; };
+		93D5A45719DC44E3003F4356 /* CustomCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D5A45619DC44E3003F4356 /* CustomCollectionViewCell.m */; };
 		93D6A89319DB648F0052EB03 /* HUDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D6A89219DB648F0052EB03 /* HUDViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -44,6 +45,8 @@
 		93B43D6A19DAF6660024671F /* LionsAndTigersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LionsAndTigersTests.m; sourceTree = "<group>"; };
 		93B43DA619DB169C0024671F /* TopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopViewController.h; sourceTree = "<group>"; };
 		93B43DA719DB169C0024671F /* TopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopViewController.m; sourceTree = "<group>"; };
+		93D5A45519DC44E3003F4356 /* CustomCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCollectionViewCell.h; sourceTree = "<group>"; };
+		93D5A45619DC44E3003F4356 /* CustomCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCollectionViewCell.m; sourceTree = "<group>"; };
 		93D6A89119DB648F0052EB03 /* HUDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HUDViewController.h; sourceTree = "<group>"; };
 		93D6A89219DB648F0052EB03 /* HUDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HUDViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -89,13 +92,15 @@
 			children = (
 				93B43D5219DAF6660024671F /* AppDelegate.h */,
 				93B43D5319DAF6660024671F /* AppDelegate.m */,
+				93B43D5819DAF6660024671F /* Main.storyboard */,
 				93B43D5519DAF6660024671F /* ViewController.h */,
 				93B43D5619DAF6660024671F /* ViewController.m */,
-				93B43D5819DAF6660024671F /* Main.storyboard */,
 				93B43DA619DB169C0024671F /* TopViewController.h */,
 				93B43DA719DB169C0024671F /* TopViewController.m */,
 				93D6A89119DB648F0052EB03 /* HUDViewController.h */,
 				93D6A89219DB648F0052EB03 /* HUDViewController.m */,
+				93D5A45519DC44E3003F4356 /* CustomCollectionViewCell.h */,
+				93D5A45619DC44E3003F4356 /* CustomCollectionViewCell.m */,
 				93B43D5B19DAF6660024671F /* Images.xcassets */,
 				93B43D5D19DAF6660024671F /* LaunchScreen.xib */,
 				93B43D4E19DAF6660024671F /* Supporting Files */,
@@ -232,6 +237,7 @@
 				93D6A89319DB648F0052EB03 /* HUDViewController.m in Sources */,
 				93B43DA819DB169C0024671F /* TopViewController.m in Sources */,
 				93B43D5719DAF6660024671F /* ViewController.m in Sources */,
+				93D5A45719DC44E3003F4356 /* CustomCollectionViewCell.m in Sources */,
 				93B43D5419DAF6660024671F /* AppDelegate.m in Sources */,
 				93B43D5119DAF6660024671F /* main.m in Sources */,
 			);

@@ -18,4 +18,8 @@
 
 @property (nonatomic, weak) id <TopDelegate> delegate;
 
+- (void)displayTigers;
+
+- (void)displayLions;
+
 @end

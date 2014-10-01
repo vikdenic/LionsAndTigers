@@ -29,5 +29,4 @@
     [self.delegate tigersButtonTapped];
 }
 
-
 @end

@@ -17,6 +17,9 @@
 
 @property (nonatomic) BOOL hudOpen;
 
+@property TopViewController *topVC;
+@property HUDViewController *hudVC;
+
 @end
 
 @implementation ViewController
@@ -31,14 +34,14 @@
 {
     if ([segue.identifier isEqualToString: @"TopSegue"])
     {
-        UINavigationController *navC = [segue destinationViewController];
-        TopViewController *topVC = [navC.viewControllers firstObject];
-        topVC.delegate = self;
+        UINavigationController *navVC = [segue destinationViewController];
+        self.topVC = [navVC.viewControllers firstObject];
+        self.topVC.delegate = self;
     }
     else if ([segue.identifier isEqualToString: @"HUDSegue"])
     {
-        HUDViewController *hudVC = segue.destinationViewController;
-        hudVC.delegate = self;
+        self.hudVC = segue.destinationViewController;
+        self.hudVC.delegate = self;
     }
 }
 
@@ -53,14 +56,15 @@
     self.hudOpen = !self.hudOpen;
 }
 
--(void)lionsButtonTapped
-{
-    NSLog(@"Lions");
-}
-
+//Custom Delegate Methods
 -(void)tigersButtonTapped
 {
-    NSLog(@"Tigers");
+    [self.topVC displayTigers];
+}
+
+-(void)lionsButtonTapped
+{
+    [self.topVC displayLions];
 }
 
 //Helper Methods
