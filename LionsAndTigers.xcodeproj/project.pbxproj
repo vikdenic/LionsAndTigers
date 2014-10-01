@@ -14,6 +14,8 @@
 		93B43D5C19DAF6660024671F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93B43D5B19DAF6660024671F /* Images.xcassets */; };
 		93B43D5F19DAF6660024671F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93B43D5D19DAF6660024671F /* LaunchScreen.xib */; };
 		93B43D6B19DAF6660024671F /* LionsAndTigersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B43D6A19DAF6660024671F /* LionsAndTigersTests.m */; };
+		93B43DA819DB169C0024671F /* TopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B43DA719DB169C0024671F /* TopViewController.m */; };
+		93D6A89319DB648F0052EB03 /* HUDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D6A89219DB648F0052EB03 /* HUDViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		93B43D6419DAF6660024671F /* LionsAndTigersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LionsAndTigersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		93B43D6919DAF6660024671F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93B43D6A19DAF6660024671F /* LionsAndTigersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LionsAndTigersTests.m; sourceTree = "<group>"; };
+		93B43DA619DB169C0024671F /* TopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopViewController.h; sourceTree = "<group>"; };
+		93B43DA719DB169C0024671F /* TopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopViewController.m; sourceTree = "<group>"; };
+		93D6A89119DB648F0052EB03 /* HUDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HUDViewController.h; sourceTree = "<group>"; };
+		93D6A89219DB648F0052EB03 /* HUDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HUDViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +92,10 @@
 				93B43D5519DAF6660024671F /* ViewController.h */,
 				93B43D5619DAF6660024671F /* ViewController.m */,
 				93B43D5819DAF6660024671F /* Main.storyboard */,
+				93B43DA619DB169C0024671F /* TopViewController.h */,
+				93B43DA719DB169C0024671F /* TopViewController.m */,
+				93D6A89119DB648F0052EB03 /* HUDViewController.h */,
+				93D6A89219DB648F0052EB03 /* HUDViewController.m */,
 				93B43D5B19DAF6660024671F /* Images.xcassets */,
 				93B43D5D19DAF6660024671F /* LaunchScreen.xib */,
 				93B43D4E19DAF6660024671F /* Supporting Files */,
@@ -219,6 +229,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93D6A89319DB648F0052EB03 /* HUDViewController.m in Sources */,
+				93B43DA819DB169C0024671F /* TopViewController.m in Sources */,
 				93B43D5719DAF6660024671F /* ViewController.m in Sources */,
 				93B43D5419DAF6660024671F /* AppDelegate.m in Sources */,
 				93B43D5119DAF6660024671F /* main.m in Sources */,
@@ -412,6 +424,7 @@
 				93B43D7019DAF6660024671F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		93B43D7119DAF6660024671F /* Build configuration list for PBXNativeTarget "LionsAndTigersTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +433,7 @@
 				93B43D7319DAF6660024671F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
