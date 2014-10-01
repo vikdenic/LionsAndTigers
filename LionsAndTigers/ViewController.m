@@ -60,11 +60,13 @@
 -(void)tigersButtonTapped
 {
     [self.topVC displayTigers];
+    [self topRevealButtonTapped];
 }
 
 -(void)lionsButtonTapped
 {
     [self.topVC displayLions];
+    [self topRevealButtonTapped];
 }
 
 //Helper Methods
